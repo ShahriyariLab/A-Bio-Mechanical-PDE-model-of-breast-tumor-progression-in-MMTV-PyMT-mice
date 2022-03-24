@@ -2,7 +2,7 @@ This folder contains file required for simulating the developement of Breast Can
 
 Corresponding paper: "A Bio-Mechanical PDE model of breast tumor progression in MMTV-PyMT mice"
 
-Code Authors: Navid Mohammad Mirzaei (https://github.com/nmirzaei)(https://sites.google.com/view/nmirzaei)
+Code Authors: Navid Mohammad Mirzaei (https://github.com/nmirzaei) (https://sites.google.com/view/nmirzaei)
 
 Requirements:
 1- FEniCS version : 2019.2.0.dev0
