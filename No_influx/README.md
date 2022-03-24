@@ -4,13 +4,15 @@ Corresponding paper: "A Bio-Mechanical PDE model of breast tumor progression in 
 
 Code Authors: Navid Mohammad Mirzaei (https://github.com/nmirzaei) (https://sites.google.com/view/nmirzaei)
 
+Executable file: Main.py
+
 Requirements:
 
 1- FEniCS version : 2019.2.0.dev0
 
 2- pandas, scipy, numpy
 
-3- Mesh files need to be in the same folder. Please download them from "A-Bio-Mechanical-PDE-model-of-breast-tumor-progression-in-MMTV-PyMT-mice/Meshes"
+3- Mesh files are needed for this folder to run. Please download them from "A-Bio-Mechanical-PDE-model-of-breast-tumor-progression-in-MMTV-PyMT-mice/Meshes"
 
 4- For remeshing a legacy version of GMSH needs to be installed (i.e. gmsh-3.0.6-Linux64). In addition, it should be callable from within FEniCS. Use the          following lines to install is on Docker:
 
