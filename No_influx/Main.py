@@ -381,7 +381,7 @@ Tn_n,Th_n,Tc_n,Tr_n,Dn_n,D_n,Mn_n,M_n,C_n,N_n,A_n,H_n,IL12_n,IL10_n,IL6_n= U_n.s
 
 
 ##############################################################
-#Influx source terms
+#Influx source terms. Here it doesn't matter since the influx rates are all zero (no influx)
 ##############################################################
 Th_R, Tc_R, Tr_R, Dn_R, D_R, M_R= project(Constant(1/10),S1),project(Constant(1/10),S1),project(Constant(1/10),S1),project(Constant(1/10),S1),project(Constant(1/10),S1),project(Constant(1/10),S1)
 ###############################################################
