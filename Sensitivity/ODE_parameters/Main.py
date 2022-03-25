@@ -483,7 +483,7 @@ vtkfile = File('output/C.pvd')
 for n in range(num_steps/4):
 
      if j>=1:
-         #constructing mechanical problem based on updated RHS, crvt and Normals
+         
 
          ##############################################################
          #Loop info update and printing
