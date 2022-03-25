@@ -19,4 +19,8 @@ Run order:
 
 Since pyadjoint occupies a lot of memory it is recommended you find the displacements separately. Use the following order:
 
-1- Run Sensitivity/Displacement/Main.py to get the displacement fields. 
+1- Run Sensitivity/Displacement/Main.py to get the displacement fields. (Notice that this file does not call pyadjoint and it can be done via fenics alone)
+
+2- Now you should have a displacement folder with all the displacement fields created from part 1. Copy it in the ODE_parameters and PDE_parameters folders.
+
+3- Proceed with running the codes in ODE_parameters and PDE_parameters folder using a pyadjoint inegrated FEniCS. This step can take a while. 
