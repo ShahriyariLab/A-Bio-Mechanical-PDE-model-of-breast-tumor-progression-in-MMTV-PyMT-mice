@@ -1,4 +1,4 @@
-This folder contains file required for sensitivity analysis
+This folder contains file required for sensitivity analysis of total cancer cells to the model parameters in presence of immune cells influx.
 
 Corresponding paper: "A Bio-Mechanical PDE model of breast tumor progression in MMTV-PyMT mice"
 
