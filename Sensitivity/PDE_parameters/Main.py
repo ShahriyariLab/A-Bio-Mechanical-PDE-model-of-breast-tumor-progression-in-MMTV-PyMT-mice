@@ -1,7 +1,7 @@
 '''
 A Bio-Mechanical PDE model of breast tumor progression in MMTV-PyMT mice
 
-**Calculates sensitivities of total cancer cell to reaction Parameters**
+**Calculates sensitivities of total cancer cell to PDE Parameters**
 
 IC_Loc_DG: Creating spatially distribute initial conditions based on biological
             data
