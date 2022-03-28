@@ -444,7 +444,7 @@ Tn_n,Th_n,Tc_n,Tr_n,Dn_n,D_n,Mn_n,M_n,C_n,N_n,A_n,H_n,IL12_n,IL10_n,IL6_n= U_n.s
 #Sum of RHS
 ###############################################################
 def RHS_sum(U,p):
-    x0,x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,x11,x12,x13,x14= U_n.split()
+    x0,x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,x11,x12,x13,x14= U.split()
     RHS_Tn = p[54]-(p[0]*x11+p[1]*x5+p[2]*x12)*x0-(p[3]*x5+p[4]*x12)*x0-(p[5]*x5+p[40])*x0
     RHS_Th = (p[0]*x11+p[1]*x5+p[2]*x12)*x0-(p[33]*x3+p[34]*x13+p[35])*x1
     RHS_Tc = (p[3]*x5+p[4]*x12)*x0-(p[36]*x3+p[37]*x13+p[38])*x2
