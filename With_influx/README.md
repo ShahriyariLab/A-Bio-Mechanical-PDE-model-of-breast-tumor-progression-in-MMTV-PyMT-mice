@@ -1,6 +1,6 @@
 This folder contains file required for simulating the developement of Breast Cancer in PyMT-MMTV mouse models with immune cells influx.
 
-Corresponding paper: "A Bio-Mechanical PDE model of breast tumor progression in MMTV-PyMT mice"
+Corresponding paper: "A PDE Model of Breast Tumor Progression in MMTV-PyMT Mice"
 
 Code Authors: Navid Mohammad Mirzaei (https://github.com/nmirzaei) (https://sites.google.com/view/nmirzaei)
 
