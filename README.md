@@ -1,7 +1,7 @@
 # A PDE Model of Breast Tumor Progression in MMTV-PyMT Mice
 
-Please cite the following paper if you use any of the codes in the repository:
+This study takes advantage of newly collected rich spatio-temporal mouse data to develop a data-driven mathematical model of breast tumors that considers cells’ location and key interactions in the tumor. The results show that cancer cells have a minor presence in the area with the most overall immune cells, and the number of activated immune cells in the tumor is depleted over time when there is no influx of immune cells. Interestingly, in the case of the influx of immune cells, the highest concentrations of both T cells and cancer cells are in the boundary of the tumor, as we use the Robin boundary condition to model the influx of immune cells. In other words, the influx of immune cells causes a dominant outward advection for cancer cells. We also investigate the effect of cells’ diffusion and immune cells’ influx rates in the dynamics of cells in the tumor micro-environment. Sensitivity analyses indicate that cancer cells and adipocytes’ diffusion rates are the most sensitive parameters, followed by influx and diffusion rates of cytotoxic T cells, implying that targeting them is a possible treatment strategy for breast cancer. Supported by NCI, Leidos, and DOE.
 
-```
-Mohammad Mirzaei, N.; Tatarova, Z.; Hao, W.; Changizi, N.; Asadpoure, A.; Zervantonakis, I.K.; Hu, Y.; Chang, Y.H.; Shahriyari, L. A PDE Model of Breast Tumor Progression in MMTV-PyMT Mice. J. Pers. Med. 2022, 12, 807. https://doi.org/10.3390/jpm12050807 
-```
+If using any parts of this code please cite: 
+
+N. Mohammad Mirzaei, Z. Tatarova, W. Hao, N. Changizi, A. Asadpoure, Y. Hu, I.K. Zervantonakis, Y.H. Chang,  L. Shahriyari, A PDE model of breast tumor progression in MMTV-PyMT mice, Journal of Personalized Medicine, 2022, https://doi.org/10.3390/jpm12050807.
